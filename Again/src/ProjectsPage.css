@@ -1,0 +1,95 @@
+.projects-page {
+    text-align: center;
+    padding: 50px;
+    }
+    
+    .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 5px;
+    margin-top: 10px;
+    }
+    
+    .project-card {
+    border: 1px solid #cecbcb;
+    padding: 5px;
+    text-align: left;
+    }
+   
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    }
+    
+    .pagination button {
+    margin: 0 5px;
+    }
+
+    .user-list {
+
+        margin-top: 20px;
+      
+        padding: 20px;
+      
+        border: 1px solid #ccc;
+      
+        border-radius: 5px;
+      
+        background-color: #f7f7f7;
+      
+      }
+      
+       
+      
+      .user-list h2 {
+      
+        margin-bottom: 10px;
+      
+        font-size: 1.5rem;
+      
+      }
+      
+       
+      
+      .user-list ul {
+      
+        list-style-type: none;
+      
+        padding: 0;
+      
+      }
+      
+       
+      
+      .user-list li {
+      
+        margin-bottom: 10px;
+      
+        padding: 10px;
+      
+        background-color: white;
+      
+        border: 1px solid #ddd;
+      
+        border-radius: 5px;
+      
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      
+      }
+
+      .user-list button{
+       margin-left: 20px;
+
+      }
+      
+       
+      
+      .user-list li strong {
+      
+        font-weight: bold;
+      
+      }
+      
+     
+      
